@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+}
+#logo{
+    font-family: 'Italianno', 'cursive';
+    font-size: 4rem;
+    color: white;
+}
+#signup-btn{
+    background-color: #FFC93C;
+    color: black;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+}
+.background-title{
+    background-image: linear-gradient(300deg, #FFC93C, #86E5FF, #0081C9);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+#group-dates{
+    color: black;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    max-width: 70ch;
+    text-wrap: wrap;
+}
+#group-dates>h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+#group-dates>p{
+    font-size: 2rem;
+}
+.rounded-img{
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+}
+.plan-text>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plan-text>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.free-button{
+    background-color: #0081C9;
+}
+.pro-button{
+    background-color: #FFC93C;
+    border-color: #FFC93C;
+}
+.premium-button{
+    background-color: #86E5FF;
+    border-color: #86E5FF;
+}
+.premium-header{
+    background-color: #86E5FF;
+    border-color: #86E5FF;
+}
+.premium-border{
+    border-color: #86E5FF;
+}
